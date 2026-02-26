@@ -96,7 +96,7 @@ SCRIPT
 
         sudo apt update -y
         sudo apt install unar gobuster armitage -y
-        
+        sudo apt install pipx -y
         echo "[*] [SETUP] starting services ..."
         sudo systemctl start postgresql
 
